@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>	
+		<listener class-name="Listeners.customListeners"/>		
+</listeners>
+ <test thread-count="5" name="Test">
+     <classes>
+						<class name="Testcases.TC_01_BankMangerLoginTest" />
+						<class name="Testcases.TC_02_Customer_DepositTest" />
+						<class name="Testcases.TC_03_DepostANDWithdrawTest" />
+						<class name="Testcases.TC_04_WithdrawLessthanBalanceTest" /> 
+						<class name="Testcases.TC_05_MultipleAccountsTest" /> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite --> 

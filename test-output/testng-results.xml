@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-05T10:34:36 IST" name="Suite" finished-at="2024-04-05T10:35:36 IST" duration-ms="59875">
+    <groups>
+    </groups>
+    <test started-at="2024-04-05T10:34:36 IST" name="Test" finished-at="2024-04-05T10:35:36 IST" duration-ms="59875">
+      <class name="Testcases.TC_04_WithdrawLessthanBalanceTest">
+        <test-method is-config="true" signature="browsersetup()[pri:0, instance:Testcases.TC_04_WithdrawLessthanBalanceTest@665e9289]" started-at="2024-04-05T10:35:13 IST" name="browsersetup" finished-at="2024-04-05T10:35:17 IST" duration-ms="3650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsersetup -->
+        <test-method signature="Withdraw_Higherthan_Balance()[pri:0, instance:Testcases.TC_04_WithdrawLessthanBalanceTest@665e9289]" started-at="2024-04-05T10:35:17 IST" name="Withdraw_Higherthan_Balance" finished-at="2024-04-05T10:35:25 IST" duration-ms="8509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Withdraw_Higherthan_Balance -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testcases.TC_04_WithdrawLessthanBalanceTest@665e9289]" started-at="2024-04-05T10:35:26 IST" name="closeBrowser" finished-at="2024-04-05T10:35:26 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Testcases.TC_04_WithdrawLessthanBalanceTest -->
+      <class name="Testcases.TC_03_DepostANDWithdrawTest">
+        <test-method is-config="true" signature="browsersetup()[pri:0, instance:Testcases.TC_03_DepostANDWithdrawTest@6b54655f]" started-at="2024-04-05T10:35:01 IST" name="browsersetup" finished-at="2024-04-05T10:35:05 IST" duration-ms="3877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsersetup -->
+        <test-method signature="Deposit_and_withdraw()[pri:0, instance:Testcases.TC_03_DepostANDWithdrawTest@6b54655f]" started-at="2024-04-05T10:35:05 IST" name="Deposit_and_withdraw" finished-at="2024-04-05T10:35:13 IST" duration-ms="7689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Deposit_and_withdraw -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testcases.TC_03_DepostANDWithdrawTest@6b54655f]" started-at="2024-04-05T10:35:13 IST" name="closeBrowser" finished-at="2024-04-05T10:35:13 IST" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Testcases.TC_03_DepostANDWithdrawTest -->
+      <class name="Testcases.TC_01_BankMangerLoginTest">
+        <test-method is-config="true" signature="browsersetup()[pri:0, instance:Testcases.TC_01_BankMangerLoginTest@6d24ffa1]" started-at="2024-04-05T10:34:36 IST" name="browsersetup" finished-at="2024-04-05T10:34:42 IST" duration-ms="5651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsersetup -->
+        <test-method signature="BankManagerLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcases.TC_01_BankMangerLoginTest@6d24ffa1]" started-at="2024-04-05T10:34:42 IST" name="BankManagerLogin" data-provider="getData" finished-at="2024-04-05T10:34:50 IST" duration-ms="8401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiran]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Puli]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[53112EB]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BankManagerLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testcases.TC_01_BankMangerLoginTest@6d24ffa1]" started-at="2024-04-05T10:34:50 IST" name="closeBrowser" finished-at="2024-04-05T10:34:51 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Testcases.TC_01_BankMangerLoginTest -->
+      <class name="Testcases.TC_05_MultipleAccountsTest">
+        <test-method is-config="true" signature="browsersetup()[pri:0, instance:Testcases.TC_05_MultipleAccountsTest@7d3430a7]" started-at="2024-04-05T10:35:26 IST" name="browsersetup" finished-at="2024-04-05T10:35:30 IST" duration-ms="3734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsersetup -->
+        <test-method signature="Customer_MultipleAccounts(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcases.TC_05_MultipleAccountsTest@7d3430a7]" started-at="2024-04-05T10:35:30 IST" name="Customer_MultipleAccounts" data-provider="getData" finished-at="2024-04-05T10:35:35 IST" duration-ms="5764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiran]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Puli]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[53112EB]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customer_MultipleAccounts -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testcases.TC_05_MultipleAccountsTest@7d3430a7]" started-at="2024-04-05T10:35:35 IST" name="closeBrowser" finished-at="2024-04-05T10:35:36 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Testcases.TC_05_MultipleAccountsTest -->
+      <class name="Testcases.TC_02_Customer_DepositTest">
+        <test-method is-config="true" signature="browsersetup()[pri:0, instance:Testcases.TC_02_Customer_DepositTest@773cbf4f]" started-at="2024-04-05T10:34:51 IST" name="browsersetup" finished-at="2024-04-05T10:34:54 IST" duration-ms="3530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsersetup -->
+        <test-method signature="Customer_Deposit()[pri:0, instance:Testcases.TC_02_Customer_DepositTest@773cbf4f]" started-at="2024-04-05T10:34:54 IST" name="Customer_Deposit" finished-at="2024-04-05T10:35:01 IST" duration-ms="6681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customer_Deposit -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testcases.TC_02_Customer_DepositTest@773cbf4f]" started-at="2024-04-05T10:35:01 IST" name="closeBrowser" finished-at="2024-04-05T10:35:01 IST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Testcases.TC_02_Customer_DepositTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
